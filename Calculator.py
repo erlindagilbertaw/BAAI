@@ -1,5 +1,6 @@
 # PRODUCT DISCOUNT CALCULATOR
 
+# Data
 products = [
     {"name": "Laptop", "price": 1200, "category": "Electronics"},
     {"name": "Shirt", "price": 45, "category": "Clothing"},
