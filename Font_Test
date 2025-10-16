@@ -1,0 +1,28 @@
+products = [
+{"name": "Laptop", "price": 1200, "category": "Electronics"},
+{"name": "Shirt", "price": 45, "category": "Clothing"},
+{"name": "Phone", "price": 800, "category": "Electronics"},
+{"name": "Shoes", "price": 120, "category": "Clothing"},
+{"name": "Tablet", "price": 350, "category": "Electronics"},
+{"name": "Jacket", "price": 95, "category": "Clothing"},
+{"name": "Book", "price": 25, "category": "Books"},
+{"name": "Headphones", "price": 150, "category": "Electronics"}
+]
+
+# Initialize tracking variables
+total_original = 0
+total_discount_amount = 0
+total_final = 0
+print("=== PRODUCT DISCOUNT CALCULATOR ===\n")
+# Process each product
+for product in products:
+name = product["name"]
+price = product["price"]
+category = product["category"]
+# TODO: Determine discount based on category and price
+# TODO: Calculate final price
+# TODO: Print product details
+# TODO: Update totals
+# Print summary
+print("\n=== SUMMARY ===")
+# TODO: Print total statistics
