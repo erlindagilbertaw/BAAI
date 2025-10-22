@@ -13,15 +13,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #Statical analysis
-from scipy import status
+from scipy import stats
 
 # 1. Input
-df = pd.read_csv('Correlation_Analysis_Data.csv')
+df = pd.read_csv('Simple_Data.csv')
 
 
 # 2. Process
-
+print(df.isnull().sum())
 
 # 3. Output
-print("Data loaded successfully")
-print(f"Dataset shape: {df.shape}")
+#print("Data loaded successfully")
+#print(f"Dataset shape: {df.shape}")
